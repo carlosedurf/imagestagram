@@ -1,0 +1,19 @@
+{
+  "name": "vendor/package",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Controllers\\": "Controllers/",
+      "Models\\": "Models/",
+      "Core\\": "Core/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Carlos Eduardo",
+      "email": "carloseduardo.rocha.f@gmail.com"
+    }
+  ]
+}
